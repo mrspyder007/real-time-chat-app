@@ -14,7 +14,7 @@ const app = express();
 const PORT = process.env.PORT || 3000; //if we deploy this on heroku, it will automatically get heroku port
 const server = http.createServer(app);
 const io = socketio(server);
-const botName = "ARX Bot";
+const botName = "WASS Bot";
 //set static folder
 app.use(express.static(path.join(__dirname, "/public")));
 
